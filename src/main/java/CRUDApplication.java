@@ -4,9 +4,9 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class CRUDApplication {
-    private static final String url = "jdbc:mysql://localhost:3306/mydb";
-    private static final String user = "root";
-    private static final String password = "456784";
+    private static final String url = "jdbc:mysql://localhost:3306/database_name";
+    private static final String user = "user_name";
+    private static final String password = "pass";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
